@@ -1,6 +1,5 @@
 package com.projects.airBnbApp.dto;
 
-
 import com.projects.airBnbApp.entity.HotelContactInfo;
 import lombok.Data;
 
