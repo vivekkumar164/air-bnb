@@ -1,6 +1,5 @@
 package com.projects.airBnbApp.entity;
 
-
 import com.projects.airBnbApp.entity.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
