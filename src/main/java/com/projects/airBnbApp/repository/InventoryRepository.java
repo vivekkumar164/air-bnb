@@ -1,6 +1,5 @@
 package com.projects.airBnbApp.repository;
 
-
 import com.projects.airBnbApp.entity.Hotel;
 import com.projects.airBnbApp.entity.Inventory;
 import com.projects.airBnbApp.entity.Room;
@@ -55,4 +54,5 @@ public interface InventoryRepository extends JpaRepository<Inventory, Long> {
     );
 
 
+    List<Inventory> findByHotelAndDateBetween(Hotel hotel, LocalDate startDate, LocalDate endDate);
 }
