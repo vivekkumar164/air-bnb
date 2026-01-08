@@ -1,6 +1,5 @@
 package com.projects.airBnbApp.service;
 
-
 import com.projects.airBnbApp.dto.RoomDto;
 
 import java.util.List;
@@ -15,4 +14,5 @@ public interface RoomService {
 
     void deleteRoomById(Long roomId);
 
+    RoomDto updateRoomById(Long hotelId, Long roomId, RoomDto roomDto);
 }
